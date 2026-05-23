@@ -1,0 +1,18 @@
+ZeloraTech HR Engine - Windows Quick Start
+
+Recommended method:
+1. Extract the ZIP file.
+2. Open the extracted hr_agent_engine folder.
+3. Double-click start_server.bat.
+4. Wait until you see: Uvicorn running on http://127.0.0.1:8000
+5. Open this in your browser: http://127.0.0.1:8000/docs
+
+VS Code method:
+1. Open the hr_agent_engine folder in VS Code.
+2. Open Terminal in VS Code.
+3. Run: .venv\Scripts\activate
+4. Run: python run.py
+
+Important:
+- First run needs internet to install modules from requirements.txt.
+- Do not run from the VS Code OUTPUT panel. Use the TERMINAL panel.
